@@ -9,13 +9,12 @@ typeset -U path   # no duplicates
 
 path=(
   "$HOME/.local/bin"
-  /opt/local/bin          # MacPorts
-  /opt/local/sbin         # MacPorts
   /usr/local/bin
   /usr/local/sbin
   "$HOME/.cargo/bin"      # Rust
   "$HOME/go/bin"          # Go
   "$HOME/node_modules/.bin"
+  "$HOME"/Library/Python/3.9/bin
   $path
 )
 
@@ -94,3 +93,7 @@ alias nrd='npm run dev'
 # Yarn
 alias yi='yarn install'
 alias yr='yarn run'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
