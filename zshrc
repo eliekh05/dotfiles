@@ -14,7 +14,6 @@ path=(
   "$HOME/.cargo/bin"      # Rust
   "$HOME/go/bin"          # Go
   "$HOME/node_modules/.bin"
-  "$HOME"/Library/Python/3.9/bin
   $path
 )
 
