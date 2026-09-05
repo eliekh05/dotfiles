@@ -113,10 +113,6 @@ _tool_line "docker"  "docker"
 _tool_line "uv"      "uv"
 _tool_line "brew"    "brew"
 
-_tool_line "brew"    "brew"
-
-
-
 printf "\n"
 
 # ── Git status of current dir ─────────────────────────────────────────────────
