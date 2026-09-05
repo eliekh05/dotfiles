@@ -37,11 +37,7 @@ compinit
 # Rust / Cargo
 [[ -f "$HOME/.cargo/env" ]] && source "$HOME/.cargo/env"
 
-# zsh syntax highlighting — install with MacPorts or your package manager:
-#   MacPorts:  sudo port install zsh-fast-syntax-highlighting
-#   Homebrew:  brew install zsh-fast-syntax-highlighting
-ZSH_HIGHLIGHT_PLUGIN="/usr/local/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh"
-[[ -f "$ZSH_HIGHLIGHT_PLUGIN" ]] && source "$ZSH_HIGHLIGHT_PLUGIN"
+source /usr/local/opt/zsh-fast-syntax-highlighting/share/zsh-fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
 
 # ------------------------------------------------------------------------------
 # 4. PROMPT  (no plugins required)
