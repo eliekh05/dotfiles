@@ -270,15 +270,6 @@ _tool_line "gpg"           "gpg"
 _tool_line "ssh"           "ssh"
 _tool_line "openssl"       "openssl"
 
-_section "✏️  Editors"
-_tool_line "vim"           "vim"
-_tool_line "nvim"          "nvim"
-_tool_line "nano"          "nano"
-_tool_line "emacs"         "emacs"
-_tool_line "helix"         "hx"
-_tool_line "code"          "code"
-_tool_line "zed"           "zed"
-
 # Quote
 local -a quotes=(
   "\"Ship it. Polish it later.\""
