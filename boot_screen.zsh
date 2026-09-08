@@ -110,8 +110,10 @@ _tool_line "rustc"   "rustc"
 _tool_line "go"      "go"
 _tool_line "git"     "git"
 _tool_line "docker"  "docker"
-_tool_line "uv"      "uv"
-_tool_line "brew"    "brew"
+# Uncomment whichever package manager you use:
+# _tool_line "brew"  "brew"     # Homebrew (Apple Silicon / Linux)
+# _tool_line "port"  "port"     # MacPorts (Intel Mac)
+# _tool_line "apt"   "apt"      # Debian/Ubuntu
 
 printf "\n"
 
