@@ -14,6 +14,8 @@ path=(
   "$HOME/.cargo/bin"      # Rust
   "$HOME/go/bin"          # Go
   "$HOME/node_modules/.bin"
+  /opt/local/bin
+  /opt/local/sbin
   $path
 )
 
